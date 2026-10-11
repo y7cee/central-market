@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E0F12">
+<meta property="og:title" content="Central Market">
+<meta property="og:description" content="Central Market, épicerie ouverte tard, Rue de la Fourche 25, à deux pas de la Grand-Place de Bruxelles.">
+<meta property="og:image" content="images/facade.jpg">
+<title>Central Market</title>
+<meta name="description" content="Central Market, épicerie ouverte tard, Rue de la Fourche 25, à deux pas de la Grand-Place de Bruxelles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;700;800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <div class="wrap header-in">
+    <a class="logo" href="index.html" aria-label="Central Market, accueil">
+      <span class="logo-name">Central <span>Market</span></span>
+      <span class="logo-sub">Alimentation générale</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Accueil</a></li>
+        <li><a href="rayons.html">Nos Rayons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-ink btn-sm" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue+de+la+Fourche+25,+1000+Bruxelles" target="_blank" rel="noopener">Itinéraire</a>
+    </nav>
+    <button class="burger" id="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="b-label">Menu</span><span class="b-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true" inert>
+  <div class="m-top">
+    <a class="logo" href="index.html" aria-label="Central Market, accueil">
+      <span class="logo-name">Central <span>Market</span></span>
+      <span class="logo-sub">Alimentation générale</span>
+    </a>
+    <button class="burger m-close" type="button" aria-expanded="true" aria-label="Fermer le menu">
+      <span class="b-label">Fermer</span><span class="b-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+  <nav class="m-nav" aria-label="Menu mobile">
+    <ul class="m-list">
+      <li style="--i:0"><a class="m-link" href="index.html" aria-current="page">Accueil</a></li>
+      <li style="--i:1"><a class="m-link" href="rayons.html">Nos Rayons</a></li>
+      <li style="--i:2"><a class="m-link" href="contact.html">Contact</a></li>
+    </ul>
+    <span class="m-orn" aria-hidden="true"></span>
+    <a class="m-cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue+de+la+Fourche+25,+1000+Bruxelles" target="_blank" rel="noopener">Itinéraire</a>
+  </nav>
+</div>
+<main>
+<section class="hero" aria-label="Central Market">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <p class="hero-eyebrow">Îlot Sacré · Bruxelles</p>
+    <h1 class="neon-sign"><span class="neon">Central Market</span><span class="neon-sub">Alimentation générale</span></h1>
+    <p class="hero-lead">Boissons fraîches, snacks, fruits et tout le quotidien, à deux pas de la Grand-Place.</p>
+    <div class="hero-cta">
+      <a class="btn btn-neon" href="rayons.html">Nos rayons</a>
+      <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue+de+la+Fourche+25,+1000+Bruxelles" target="_blank" rel="noopener">Itinéraire</a>
+    </div>
+  </div>
+</section>
+
+<section class="home-info" aria-label="Infos pratiques">
+  <div class="wrap info3">
+    <div><span class="i-label">Horaires</span><b>Jusqu'à 2h</b><span>Ouvert tous les jours</span></div>
+    <div><span class="i-label">Adresse</span><b>Rue de la Fourche 25</b><span>1000 Bruxelles</span></div>
+    <div><span class="i-label">Accès</span><b>Grand-Place</b><span>À 2 minutes à pied</span></div>
+  </div>
+</section>
+
+<section class="home-tiles" aria-label="Découvrir">
+  <div class="wrap tiles2">
+    <a class="tile" href="rayons.html"><img src="images/rayons.jpg" alt="" loading="lazy" width="252" height="424"><span class="tile-cap"><b>Nos rayons</b><em>Découvrir</em></span></a>
+    <a class="tile" href="contact.html"><img src="images/facade.jpg" alt="" loading="lazy" width="568" height="424"><span class="tile-cap"><b>Nous trouver</b><em>Adresse &amp; horaires</em></span></a>
+  </div>
+</section>
+
+<section class="home-rating">
+  <div class="wrap hr">
+    <span class="stars" role="img" aria-label="4 étoiles sur 5"><span style="width:80%"></span></span>
+    <p><b>4,0</b> sur Google · 12 avis</p>
+    <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Central+Market+Rue+de+la+Fourche+25+1000+Bruxelles" target="_blank" rel="noopener">Lire les avis</a>
+  </div>
+</section>
+<section class="cta-band">
+  <div class="wrap cta-in">
+    <h2>Ouvert tous les soirs <em>jusqu'à 2h</em></h2>
+    <a class="btn btn-neon" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue+de+la+Fourche+25,+1000+Bruxelles" target="_blank" rel="noopener">Itinéraire</a>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap f-in">
+    <div class="f-logo">Central <span>Market</span></div>
+    <p class="f-tag">Épicerie ouverte tard, au cœur de l'Îlot Sacré. Boissons, snacks, fruits et tout le quotidien.</p>
+    <ul class="f-nav">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="rayons.html">Nos Rayons</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="f-cols">
+      <div><h4>Adresse</h4><p>Rue de la Fourche 25<br>1000 Bruxelles</p></div>
+      <div><h4>Horaires</h4><p>Ouvert tous les jours<br>jusqu'à 2h du matin</p></div>
+      <div><h4>Contact</h4><p><a href="contact.html">Nous écrire</a><br><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Rue+de+la+Fourche+25,+1000+Bruxelles" target="_blank" rel="noopener">Itinéraire</a></p></div>
+    </div>
+    <div class="socials">
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Central+Market+Rue+de+la+Fourche+25+1000+Bruxelles" target="_blank" rel="noopener" aria-label="Central Market sur Google Maps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg></a>
+    </div>
+    <div class="f-small">
+      <span>© <span id="year">2026</span> Central Market</span>
+      <span>Bruxelles</span>
+      <button type="button" class="f-top" data-top>Retour en haut ↑</button>
+    </div>
+  </div>
+</footer>
+<button type="button" class="to-top" id="to-top" data-top aria-label="Retour en haut de la page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<script src="script.js"></script>
+</body>
+</html>
